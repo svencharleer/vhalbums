@@ -1,0 +1,18 @@
+{
+  "name": "Download VH Album",
+  "description": "Download an entire album onthe VH website. Click on the album you wish to download. Scroll down until all images are loaded. Click the download button.",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs", "downloads","http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+      "default_title": "Download album",
+      "default_icon": "print_16x16.png"
+  },
+  "manifest_version": 2,
+  "author": "Sven Charleer",
+  "homepage_url": "http://github.com"
+}
